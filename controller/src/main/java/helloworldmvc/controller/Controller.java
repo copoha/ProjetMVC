@@ -9,7 +9,7 @@ public class Controller {
     private IModel model;
     private IView view;
 
-    Controller(IModel model, IView view){
+    public Controller(IModel model, IView view){
         this.model = model;
         this.view = view;
     }
