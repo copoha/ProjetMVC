@@ -8,8 +8,8 @@ repositories {
 }
 
 dependencies {
-    compile project(':model')
-    compile project(':view')
+    implementation project(':model')
+    implementation project(':view')
 }
 
 test {
